@@ -1,7 +1,58 @@
+.navbar.navbar-default.top {
+    display: none;
+}
+
 .nav-right {
     float: right;
 }
 
 nav.top {
     margin-bottom: 0;
+}
+
+.top-bar > p {
+    padding: 15px 0;
+}
+
+.top-bar > p, .navbar-default .navbar-nav>li>a  {
+
+    color: #5b6987;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+
+#new-label {
+    background-color: rgb(0,215,210);
+    color:rgb(3,27,78);
+    border-radius: 12%;
+    padding: 5px 8px;
+    margin-right: 10px;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.top-bar > p:hover, .navbar-default .navbar-nav>li>a:hover{
+    color: #0069ff;
+}
+.top-bar > a {
+    text-decoration:none;
+}
+
+.img-logo {
+    width: 172px;
+    height: auto;
+    margin-right: 40px;
+
+}
+
+.box-down {
+    vertical-align: middle;
+}
+
+@media screen and (min-width:790px) {
+    .navbar.navbar-default.top {
+        display: block;
+    }
 }
