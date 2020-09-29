@@ -1,6 +1,28 @@
 .navbar.navbar-default.top {
     display: none;
 }
+.navbar.navbar-default.down {
+    padding: 16px 0;
+    border-bottom: none;
+}
+
+
+.btn {
+    background-color:#fff;
+    color: #0069ff;
+    border: 1px solid #0069ff;
+
+}
+
+.navbar.navbar-default .btn.invert {
+    margin-left: 15px;
+}
+
+.btn.invert {
+    background-color: #0069ff;
+    color: #fff;
+    border: 1px solid #0069ff;
+}
 
 .nav-right {
     float: right;
@@ -11,7 +33,7 @@ nav.top {
 }
 
 .top-bar > p {
-    padding: 15px 0;
+    padding: 12px 0;
 }
 
 .top-bar > p, .navbar-default .navbar-nav>li>a  {
