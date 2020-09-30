@@ -9,7 +9,13 @@ p {
     line-height: 150%;
 }
 
-
+h5 {
+    font-size: 14px;
+    line-height: 120%;
+    color: #5b6987;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
 
 .navbar.navbar-default.top {
     display: none;
@@ -131,6 +137,7 @@ nav.top {
     padding: 20px;
     padding-top: 0;
     background-color: #fff;
+    margin: 0 auto;
 
 }
 
@@ -188,6 +195,26 @@ nav.top {
     background-color: #fff;
     border: 1px solid black;
     color: black;
+}
+
+.section-logo {
+    background-color: #f3f5f9;
+    padding: 60px 0;
+}
+
+.section-logo h5 {
+    margin: 0;
+    padding-bottom: 40px;
+}
+.section-logo .link-see {
+    margin: 0;
+    padding-top: 40px;
+}
+
+.section-logo a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0069ff;
 }
 
 @media (min-width: 768px) {
