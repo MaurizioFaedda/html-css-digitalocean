@@ -1,15 +1,42 @@
+h1 {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+p {
+    font-size: 24px;
+    line-height: 150%;
+}
+
+
+
 .navbar.navbar-default.top {
     display: none;
+    min-height: none;
+
 }
 .navbar.navbar-default.down {
-    padding: 16px 0;
+    padding: 15px 0;
     border-bottom: none;
+    vertical-align: middle;
+    margin-bottom: 0;
 }
 
 
 .btn {
     background-color:#fff;
     color: #0069ff;
+    border: 1px solid #0069ff;
+    font-size: 1em;
+    padding: 15px;
+
+    margin: 0;
+
+}
+.btn:hover {
+    background-color: #0069ff;
+    color: #fff;
     border: 1px solid #0069ff;
 
 }
@@ -26,6 +53,7 @@
 
 .nav-right {
     float: right;
+
 }
 
 nav.top {
@@ -33,7 +61,8 @@ nav.top {
 }
 
 .top-bar > p {
-    padding: 12px 0;
+    padding: 15px 0;
+    margin: 0;
 }
 
 .top-bar > p, .navbar-default .navbar-nav>li>a  {
@@ -55,6 +84,12 @@ nav.top {
     font-weight: 600;
 }
 
+/* .top-bar > p::after {
+    content: "/f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+} */
+
 .top-bar > p:hover, .navbar-default .navbar-nav>li>a:hover{
     color: #0069ff;
 }
@@ -64,17 +99,76 @@ nav.top {
 
 .img-logo {
     width: 172px;
-    height: auto;
+    height: 28px;
     margin-right: 40px;
-
+    margin-top: -5px;
 }
 
 .box-down {
     vertical-align: middle;
 }
 
-@media screen and (min-width:790px) {
+.form-horizontal {
+    margin: auto 0;
+}
+
+.section-form {
+    width: 100%;
+    padding: 120px 0;
+    background-image: url(https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg);
+    color: #fff;
+}
+
+/* .section-form .welcome p {
+    padding-right: 18px;
+} */
+
+.bott-logo {
+    padding-right: 4px;
+}
+
+.form-group button.btn.btn-default.google {
+    padding: 15px 45px;
+
+}
+
+.form-group button.btn.btn-default.solo {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+
     .navbar.navbar-default.top {
         display: block;
+    }
+
+    .navbar-header {
+        float: left;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important; /* per sovrascrivere l'important di bootstrap */
     }
 }
