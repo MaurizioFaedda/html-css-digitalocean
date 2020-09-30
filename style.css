@@ -123,19 +123,38 @@ nav.top {
     padding-right: 18px;
 } */
 
+.form-box {
+    border: 1px solid #fff;
+    min-width: 370px;
+    padding: 20px;
+
+}
+
 .bott-logo {
     padding-right: 4px;
+    width: 75%
 }
 
-.form-group button.btn.btn-default.google {
-    padding: 15px 45px;
-
+.bott-small{
+    width: 20%;
+    float: right;
 }
 
-.form-group button.btn.btn-default.solo {
+.bott-logo, .bott-small{
+    margin-top: 100px;
+}
+.form-box {
+    width: 80%;
+    padding: auto;
+}
+
+
+.bott-sign, .contenuto-input {
     width: 100%;
     margin-bottom: 60px;
+    margin: 6px 0;
 }
+
 
 @media (min-width: 768px) {
 
