@@ -37,6 +37,8 @@ h5 {
 }
 
 
+
+
 .navbar.navbar-default.top {
     display: none;
     min-height: none;
@@ -112,11 +114,11 @@ nav.top {
     font-weight: 600;
 }
 
-/* .top-bar > p::after {
-    content: "/f054";
+.top-bar > p::after {
+    content: "\f054";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-} */
+}
 
 .top-bar > p:hover, .navbar-default .navbar-nav>li>a:hover{
     color: #0069ff;
@@ -358,6 +360,43 @@ nav.top {
     background-color:  #0069ff;
 }
 
+/* -----------SECTION BUSINESS */
+.section-business {
+    padding: 40px 0;
+}
+
+.link-arrow {
+    color: #0069ff;
+    font-weight: bold;
+}
+
+.link-arrow:after{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 6px;
+}
+
+.section-business a {
+    text-decoration: none;
+}
+
+.section-business a:hover {
+    color: #1633ff;
+}
+
+.business-content{
+    margin-top: 90px;
+}
+
+.business-content h4 {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+
+
+/* ---------------------MEDIA QUERY-------------------- */
 
 @media (min-width: 768px) {
 
@@ -467,5 +506,10 @@ nav.top {
     .welcome{
         text-align: left;
         padding: 100px 0;
+    }
+
+    .business-content {
+        text-align: left;
+        margin-top: 40px;
     }
 }
