@@ -394,6 +394,20 @@ nav.top {
     padding-bottom: 12px;
 }
 
+/* ------SECTION-DATA------- */
+.section-data li {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+.data-dx {
+    margin-top: 0;
+}
+
+.data-sx {
+    margin-bottom: 0;
+}
+
 
 
 /* ---------------------MEDIA QUERY-------------------- */
