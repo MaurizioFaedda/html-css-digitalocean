@@ -11,7 +11,7 @@ h2 {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 150%;
 }
 
@@ -467,6 +467,55 @@ nav.top {
     padding-top: 15px;
 }
 
+/* -----------------DEVOL------------------ */
+
+.section-devel {
+    background-color: #f3f5f9;
+}
+
+.content-devel {
+    padding: 60px 0;
+
+}
+
+.content-devel p {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    font-size: 24px;
+
+}
+
+.box-devel {
+
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 40px 0;
+    position: relative;
+}
+
+
+.box-devel-text p:first-child:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 6px;
+    opacity: 0.3;
+
+}
+.box-devel-text p:first-child:after{
+    content: "\f10e";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    padding-right: 6px;
+    opacity: 0.3;
+}
+
+.box-devel-text a {
+    padding-top: 6px;
+    font-size: 26px;
+}
 
 /* ---------------------MEDIA QUERY-------------------- */
 
@@ -592,5 +641,29 @@ nav.top {
 
     .section-data li a{
         float: right;
+    }
+
+    .box-devel::before {
+        content: "\f060";
+        font-family: "Font Awesome 5 Free";
+        color: #5b6987;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 102%;
+    }
+
+    .box-devel::after {
+        content: "\f061";
+        font-family: "Font Awesome 5 Free";
+        color: #5b6987;
+        font-size: 30px;
+        font-weight: 600;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 102%;
     }
 }
