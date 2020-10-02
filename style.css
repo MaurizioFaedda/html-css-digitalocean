@@ -5,13 +5,13 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 26px;
     font-weight: bold;
     color: #031b4e;
 }
 
 p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 150%;
 }
 
@@ -395,10 +395,21 @@ nav.top {
 }
 
 /* ------SECTION-DATA------- */
+
+.section-data{
+    background-color: #031b4e;
+    background-image: url(https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg);
+    padding: 80px 0;
+}
+
 .section-data li {
     list-style-type: none;
     padding: 10px 0;
+    border-bottom: 1px solid rgba(360, 360 ,360, 0.6);
+
 }
+
+
 
 .data-dx {
     margin-top: 0;
@@ -406,8 +417,55 @@ nav.top {
 
 .data-sx {
     margin-bottom: 0;
+    text-align: center;
+    margin: auto;
+
 }
 
+.section-data li span:first-child{
+    text-transform: uppercase;
+    padding-right: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.section-data li span {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.section-data li a{
+    padding-left: 100px;
+    color: #00d7d2;
+}
+
+.section-data li a::after{
+    content: "\f054";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    padding-left: 6px;
+}
+
+.section-data li a:hover {
+    color: #1633ff;
+    text-decoration: none;
+}
+
+.section-data ul {
+    padding-inline-start: 0;
+
+}
+
+.section-data h2, .section-data p {
+    color: #fff;
+
+}
+
+.section-data p {
+    font-size: 20px;
+    padding-bottom: 50px;
+    padding-top: 15px;
+}
 
 
 /* ---------------------MEDIA QUERY-------------------- */
@@ -430,7 +488,7 @@ nav.top {
 
     }
     h2 {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     p {
@@ -525,5 +583,14 @@ nav.top {
     .business-content {
         text-align: left;
         margin-top: 40px;
+    }
+
+    .data-sx, .data-dx {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .section-data li a{
+        float: right;
     }
 }
